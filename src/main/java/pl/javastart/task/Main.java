@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         PalindromeService palindromeService = new PalindromeService();
 
-        int[] array = new int[]{0, 1, 0, 1, 0};
+        int[] array = new int[]{1, 2, 2, 1};
 
         boolean isPalindrome = palindromeService.isPalindrome(array);
 
